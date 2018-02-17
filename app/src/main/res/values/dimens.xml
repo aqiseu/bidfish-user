@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_title_slider">27sp</dimen>
+    <dimen name="dp_270">270dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="dp_162">162dp</dimen>
+    <dimen name="dp_52">52dp</dimen>
+
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\amali\Downloads\user-master-281039f8b3023c973686cd430f355d47da9cd3ee\BidFish.iml" filepath="C:\Users\amali\Downloads\user-master-281039f8b3023c973686cd430f355d47da9cd3ee\BidFish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\amali\Downloads\user-master-281039f8b3023c973686cd430f355d47da9cd3ee\app\app.iml" filepath="C:\Users\amali\Downloads\user-master-281039f8b3023c973686cd430f355d47da9cd3ee\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bidfish-user.iml" filepath="$PROJECT_DIR$/bidfish-user.iml" />
+    </modules>
+  </component>
+</project>

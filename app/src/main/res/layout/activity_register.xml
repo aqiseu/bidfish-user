@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.semarmesem.bidfish.bidfishcustomer.Activity.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/img_logo_regist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo_bidfish_main" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/sv_form_regist"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_logo_regist">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                    android:id="@+id/edt_name_regist"
+                    android:gravity="center"
+                    android:background="@drawable/edittextbg"
+                    android:layout_width="wrap_content"
+                    android:textSize="13sp"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:fontFamily="@font/overlock"/>
+
+            <EditText
+                    android:id="@+id/edt_email_regist"
+                    android:textSize="13sp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:background="@drawable/edittextbg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/edt_name_regist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:fontFamily="@font/overlock"/>
+
+           <EditText
+                    android:id="@+id/edt_pass_regist"
+               android:textSize="13sp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:background="@drawable/edittextbg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/edt_email_regist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password"
+                    android:fontFamily="@font/overlock"/>
+
+            <Spinner
+                android:background="@drawable/edittextbg"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/spn_gender"
+                android:gravity="center"
+                style="@style/spinner_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edt_pass_regist"
+                android:layout_centerHorizontal="true"
+                android:drawSelectorOnTop="true"
+                android:dropDownVerticalOffset="-53dp"
+                android:prompt="@string/genderprompt"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:textSize="13sp"
+                    android:id="@+id/edt_phone_regist"
+                    android:layout_below="@id/spn_gender"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/edittextbg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone"
+                    android:fontFamily="@font/overlock"/>
+
+                <EditText
+                    android:textSize="13sp"
+                    android:id="@+id/edt_address_regist"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/edt_phone_regist"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:background="@drawable/edittextbg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone"
+                    android:fontFamily="@font/overlock"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_regist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/sv_form_regist"
+        android:background="@drawable/button"
+        android:text="@string/register_btn"
+        android:fontFamily="@font/overlock"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/btn_regist"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/overlock"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already had an account?"/>
+
+        <TextView
+            android:id="@+id/tv_regist_login"
+            android:fontFamily="@font/overlock"
+            android:textSize="15sp"
+            android:textColor="@color/colorSecondaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login here."/>
+
+    </LinearLayout>
+
+</RelativeLayout>
